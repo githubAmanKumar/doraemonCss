@@ -1,0 +1,199 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(180deg,rgb(241, 136, 0),rgb(255, 97, 97),rgb(26, 246, 246));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .face {
+    width: 200px;
+    height: 200px;
+    transform: scale(2);;
+    /* position: absolute; */
+    top: -13%;
+    border: 2px solid #000;
+    border-radius: 100px;
+    background-image: linear-gradient(180deg,rgb(0, 130, 182),rgb(0, 130, 182),rgb(0, 0, 0));
+
+    position: relative;
+    /* box-shadow: 0px 0px 50px 30px skyblue; */
+  }
+
+  
+  /* Eye styles */
+  .eyes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .eye-left, .eye-right {
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .eye-left {
+    left: 25%;
+  }
+  
+  .eye-right {
+    right: 25%;
+  }
+
+  .eyeball {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .eye-leftball, .eye-rightball {
+    width: 12px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #de2828;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 8px;
+    margin: 5px;
+    background-image: linear-gradient(180deg,black,rgb(39, 35, 35),black);
+
+  }
+  .eye-leftball {
+    left: 25%;
+  }
+  
+  .eye-rightball {
+    right: 25%;
+  }
+  
+  /* Nose styles */
+  .nose {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: linear-gradient(180deg,rgb(174, 0, 0),red,red,rgb(174, 0, 0),black);
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+
+  }
+  .nose:hover{
+    cursor: pointer;
+    transform: translate(-14px,20px) scale(2);
+    background-image: linear-gradient(180deg,orangered,rgb(253, 116, 67),rgb(255, 101, 45),rgb(217, 58, 0),black);
+  }
+  
+  /* Mouth styles */
+  .mouth {
+    width: 80px;
+    height: 20px;
+    border-radius: 50% 50% 0 0;
+    background-image: linear-gradient(180deg,red,black);
+    border: 2px solid #000;
+    position: absolute;
+    bottom: 34px;
+    left: 10%;
+    transform: translateX(-50%);
+    rotate: 180deg;
+  }
+  
+  .facein {
+    width: 155px;
+    height: 125px;
+    border: 2px solid #000;
+    border-radius: 50% 50% 50% 50%;
+    background-image: linear-gradient(180deg,white,white,white,white,white,gray,black);
+    position: relative;
+    top: 73px;
+    left: 21px;
+  }
+  /* moustache */
+  .line {
+    width: 28px;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+  }
+  #line1{
+    rotate: 25deg;
+    bottom: 88px;
+    right: 115px;
+  }
+  #line2 {
+    rotate: 160deg;
+    bottom: 87px;
+    right: 53px;
+  }
+  #line3 {
+    rotate: 3deg;
+    bottom: 78px;
+    right: 120px;
+  }
+  #line4 {
+    rotate: 3deg;
+    bottom: 77px;
+    right: 49px;
+  }
+  #line5 {
+    rotate: -16deg;
+    bottom: 68px;
+    right: 116px;
+  }
+  #line6 {
+    rotate: 16deg;
+    bottom: 68px;
+    right: 53px;
+  }
+  
+  .band{
+    position: absolute;
+    bottom: 1px;
+    left: 46px;
+    height: 14px;
+    width: 110px;
+    background-image: linear-gradient(90deg,black,red,red,red,black);
+    border-radius: 0 0 70px 70px;
+  }
+  
+  .bell{
+    position: absolute;
+    bottom: -23px;
+    left: 76px;
+    height: 40px;
+    width: 50px;
+    background-image: linear-gradient(90deg,black,gold,yellow,gold,black);
+    border-radius: 50%;
+  }
+  .bellband{
+    position: absolute;
+    bottom: -9px;
+    left: 72px;
+    height: 12px;
+    width: 58px;
+    background-image: linear-gradient(180deg,black,gold,yellow,black,gold,black);
+    border-radius: 50%;
+  }
+
+  .circle{
+    position: absolute;
+    bottom: -22px;
+    left: 94px;
+    height: 13px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+  }
